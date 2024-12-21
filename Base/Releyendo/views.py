@@ -9,3 +9,9 @@ def libros(request) :
 
 def sobremi(request) :
     return render ( request, "Releyendo/sobremi.html")
+
+def cuenta(request) :
+    return render ( request, "Releyendo/cuenta.html")
+
+def salir(request) :
+    return render ( request, "Releyendo/salir.html")
